@@ -78,7 +78,7 @@ font-family: 'FontAwesome';
 /*CONTENT*/
 button {
 	background-color: #314780;
-	width: 50%;
+	width: 48%;
 	height: 35px;
 	border-radius: 5px;
 	border-color: #4c65a5;
@@ -111,44 +111,56 @@ h1 {
  font-size: 24px;
  color: #fff;
  }
-.title {
-  overflow: hidden;
+/*.title {
   color:#999999;
 }
-.title:before,
-.title:after {
-  content: '';
-  display: inline-block;
+.line{
  
+  display: inline-block;
   width: 23%;
   height: 2px;
   background: #666666;
   border-width: 0 10px;
   text-align: center;
   margin-top: 30px;
-
 }
-.title:before {
+.title .line{
   margin-left: -49%;
   border-bottom: 1px solid #101010;
 }
-.title:after {
+.title .line {
   margin-right: -49%;
   border-bottom: 1px solid #101010;
+
 }
 .title span {
 	vertical-align: bottom;
+}*/
+.ou span {
+text-align: center;
+display: block;
+color: #999999;
+background-image: url(img/line.png);
+background-repeat: no-repeat;
+background-position: 50% 50%;
+font-size: 14px;
+padding-top: 32px;
+padding-bottom: 28px;
 }
+
  .box input[type="text"], .box input[type="text"], .box input[type="email"], .box input[type="password"], .box input[type="password"]{
 	padding: 13px 150px 13px 20px;
 	background: #101010;
 	color:#fff;
 	cursor: pointer;
 	border:0;
-	width: 150px;
+	width: 136px;
 	border-bottom: 1px solid #484947;
 	margin-top: 17px;
 	font-size: 14px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
 }
 .button {
 	padding:10px 0 10px 0;
