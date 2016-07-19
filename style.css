@@ -83,6 +83,7 @@ button {
 	border-radius: 5px;
 	border-color: #4c65a5;
 	margin-top: 38px;
+	cursor: pointer;
 }
 button strong {
 	font-size: 14px;
@@ -111,31 +112,6 @@ h1 {
  font-size: 24px;
  color: #fff;
  }
-/*.title {
-  color:#999999;
-}
-.line{
- 
-  display: inline-block;
-  width: 23%;
-  height: 2px;
-  background: #666666;
-  border-width: 0 10px;
-  text-align: center;
-  margin-top: 30px;
-}
-.title .line{
-  margin-left: -49%;
-  border-bottom: 1px solid #101010;
-}
-.title .line {
-  margin-right: -49%;
-  border-bottom: 1px solid #101010;
-
-}
-.title span {
-	vertical-align: bottom;
-}*/
 .ou span {
 text-align: center;
 display: block;
